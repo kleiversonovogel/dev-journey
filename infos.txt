@@ -207,3 +207,25 @@ for (let i = 1; i <= 10; i = i + 1) {...}
 
     i = i + 1
     incrementoou decremento da var de controle realizada apos 1° loop
+
+while = se for true, executa
+se for falsa, ignora e encerra a repetição.
+pode executar 0 vezes caso a condição inicial for falsa
+
+do...while = executado pelo menos uma vez 
+depois verifica se é true, se for
+repete o bloco, senao encerra a repetição
+
+    break sai do laço
+    continue retorna ao inicio da condição
+    
+    while (condicao1) {
+        comandos
+        if (condicao2) {
+            comandos
+            continue // faz ser testada novamente ate ser verdade p/ continuar condição
+        } if (condicao3) {
+            comandos
+            break // sai do laço e se tiver comandos fora do laço, serao executados
+        }
+    }
