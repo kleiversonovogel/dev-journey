@@ -229,3 +229,5 @@ repete o bloco, senao encerra a repetição
             break // sai do laço e se tiver comandos fora do laço, serao executados
         }
     }
+
+    // padend preenche o espaço vazio, se padEnd(30) fará isso até atingir 30 posições
