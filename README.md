@@ -2,6 +2,9 @@
 
 Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com JavaScript"**, feitos por mim durante o estudo.
 
+![Status](https://img.shields.io/badge/status-em%20andamento-1f2937?style=flat)
+![Capítulos](https://img.shields.io/badge/cap%C3%ADtulos-5-1f2937?style=flat)
+
 ## Conteúdo
 
 | Pasta | Tópicos |
@@ -11,8 +14,19 @@ Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com Jav
 | `cap03` | JavaScript no terminal com Node.js e `prompt-sync` |
 | `cap04` | Condicionais (`if/else`, `switch`, ternário), operadores relacionais e lógicos |
 | `cap05` | Laços (`for`, `while`, `do...while`), `break`/`continue`, contadores e acumuladores |
+| `exercicios` | Exercícios extras de prática, fora do livro |
 
 Também há anotações pessoais de estudo em `infos.txt`, que podem conter imprecisões.
+
+## Convenção dos arquivos
+
+- `exp*`: exemplos do livro
+- `ex*`: exercícios propostos
+
+## Pré-requisitos
+
+- Navegador (para os arquivos `.html`)
+- [Node.js](https://nodejs.org) (para os arquivos executados no terminal)
 
 ## Como executar
 
@@ -21,8 +35,8 @@ Também há anotações pessoais de estudo em `infos.txt`, que podem conter impr
 **Exercícios com Node.js (cap03):**
 
 ```bash
-npm install prompt-sync
-node nome-do-arquivo.js
+npm install
+node cap03/ex3_1.js
 ```
 
 ## Tecnologias
