@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somar contas do mês</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <img src="https://thumbs.dreamstime.com/b/boletos-do-dinheiro-86827980.jpg" alt="Contas a pagar" class="alta">
+
+    <h1>Somar contas do mês</h1>
+
+    <form>
+        <p>Descrição da conta:
+            <input type="text" id="InDescricao" required>
+        </p>
+
+        <p>Valor a pagar: 
+            <input type="number" min="0" step="0.01" id="InValor" required>
+        </p>
+
+        <input type="submit" value="Registrar Conta">
+
+    </form>
+
+    <pre id="outresp1"></pre>
+    <pre id="outresp2"></pre>
+
+    <script src="exp5_5-somar-contas-do-mes.js"></script>
+</body>
+</html>

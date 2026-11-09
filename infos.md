@@ -150,7 +150,7 @@ Math.floor(Math.random() * 10)
 | `dir` | Lista arquivos e pastas (Windows) |
 | `cd cap03` | Entra na pasta `cap03` |
 | `cd ..` | Volta uma pasta |
-| `node ex3_1.js` | Executa o arquivo JavaScript |
+| `node ex3_1-soma-de-dois-numeros.js` | Executa o arquivo JavaScript |
 
 `prompt-sync` permite entrada de dados pelo terminal:
 

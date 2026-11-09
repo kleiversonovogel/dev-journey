@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar números pares</title>
+</head>
+<body>
+    <script>
+        let num // declara var num com let, pos pode ser alterada
+        // e sera acessada fora do bloco do...while
+
+        do { // cria laço de repetição (faça)
+            num = Number(prompt("numero: ")) // le numero
+            if (num == 0 || isNaN(num)) { // se num = 0 ou invalido
+                alert("Digite numero valido")
+            }
+        } while (num == 0 || NaN(num)) // enqnt num = 0 ou invalid
+        let pares = `Pares entre 1 e ${num}: `// string q contem resp
+        for (let i = 2; i <= num; i = i + 2) { // i inicia valendo 2, enquanto i < que num, segue, acrescentando +2
+            pares = pares + i + ", "
+        }
+        alert(pares) // exibe lista de pares
+    </script>
+
+</body>
+</html>

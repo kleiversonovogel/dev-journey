@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular dobro ou triplo</title>
+</head>
+<body>
+    <script>
+        alert("digite 0 para sair")
+        do {
+            const num = Number(prompt("Número: ")) // le numero
+            if (num == 0 || isNaN(num)) {                   // se num = 0 ou invalid
+                const sair = confirm("Confirmar saida?") // solicita confirmação do usuario
+                if (sair) {
+                    break // sai da repetição
+                } else {
+                    continue
+                }
+            }
+            if (num % 2 == 0) {                         // se par,
+                alert(`O dobro de ${num} é ${num * 2}`) // mostra dobro
+            } else {                                    // senao
+                alert(`O triplo de ${num} é ${num * 3}`) // mostra triplo
+            } 
+        } while (true) { // só sai do laço pelo break
+            alert("Tchau!")
+        }
+    </script>
+</body>
+</html>
