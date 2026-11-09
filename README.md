@@ -16,12 +16,13 @@ Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com Jav
 | `cap05` | Laços (`for`, `while`, `do...while`), `break`/`continue`, contadores e acumuladores |
 | `exercicios` | Exercícios extras de prática, fora do livro |
 
-Também há anotações pessoais de estudo em `infos.txt`, que podem conter imprecisões.
+Também há anotações pessoais de estudo em `infos.md`, que podem conter imprecisões.
 
 ## Convenção dos arquivos
 
 - `exp*`: exemplos do livro
 - `ex*`: exercícios propostos
+- O número preserva a referência ao livro; o sufixo descreve o tema em kebab-case.
 
 ## Pré-requisitos
 
@@ -36,7 +37,7 @@ Também há anotações pessoais de estudo em `infos.txt`, que podem conter impr
 
 ```bash
 npm install
-node cap03/ex3_1.js
+node cap03/ex3_1-soma-de-dois-numeros.js
 ```
 
 ## Tecnologias
