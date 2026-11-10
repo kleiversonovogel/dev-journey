@@ -1,4 +1,4 @@
-# livrojs
+# dev-journey
 
 Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com JavaScript"**, feitos por mim durante o estudo. O estudo do capítulo 6, sobre vetores (arrays), está em andamento.
 
