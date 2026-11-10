@@ -460,3 +460,105 @@ while (condicao1) {
 ```
 
 No `for`, o `continue` vai para o incremento antes de testar a condição.
+
+## 13. Vetores (arrays)
+
+Um vetor (array) armazena vários valores em uma lista ordenada. Cada elemento é acessado por um **índice**, que começa em `0`. Uma variável comum guarda um valor por vez; ao atribuir outro valor a ela, o anterior é substituído.
+
+```js
+const produtos = ["Arroz", "Feijão", "Iogurte", "Leite", "Suco", "Pão"]
+console.log(produtos[0])   // "Arroz" (primeiro elemento)
+produtos[1] = "Feijão preto"  // altera o elemento do índice 1
+
+let idade = 18
+idade = 15               // substitui o valor anterior
+
+const idades = [18, 15]  // mantém os dois valores
+```
+
+Um array vazio pode ser declarado com `[]` (forma recomendada) ou `new Array()`. Um array declarado com `const` pode ter seus elementos alterados, mas a variável não pode receber outro array.
+
+```js
+const numeros = []
+numeros[0] = 10           // permitido
+// numeros = [10, 20]     // erro: nova atribuição à constante
+```
+
+### Inclusão e exclusão
+
+| Método | Efeito |
+|---|---|
+| `push(item)` | Adiciona um elemento ao final. |
+| `unshift(item)` | Adiciona um elemento ao início e desloca os demais. |
+| `pop()` | Remove e retorna o último elemento. |
+| `shift()` | Remove e retorna o primeiro elemento e desloca os demais. |
+
+```js
+const cidades = ["Pelotas"]
+cidades.push("São Lourenço")
+console.log(cidades)                 // ["Pelotas", "São Lourenço"]
+
+cidades.unshift("Porto Alegre")
+console.log(cidades)                 // ["Porto Alegre", "Pelotas", "São Lourenço"]
+
+const ultima = cidades.pop()         // ultima = "São Lourenço"
+const primeira = cidades.shift()     // primeira = "Porto Alegre"
+console.log(cidades)                 // ["Pelotas"]
+```
+
+### `splice()` e `slice()`
+
+`splice(inicio, quantidade, ...itens)` altera o array original: remove, insere ou substitui elementos. Retorna um array com os elementos removidos, mesmo que seja removido apenas um elemento.
+
+`slice(inicio, fim)` retorna uma cópia de uma parte do array, sem alterar o original. O índice final é **exclusivo** e pode ser omitido. Índices negativos contam a partir do final.
+
+```js
+const letras = ["A", "B", "C", "D"]
+const ultimas = letras.slice(2)       // ["C", "D"]
+const semUltima = letras.slice(0, -1) // ["A", "B", "C"]
+const retiradas = letras.splice(2, 1) // remove o elemento do índice 2
+console.log(letras)                   // ["A", "B", "D"]
+console.log(retiradas)                // ["C"]
+```
+
+### Tamanho e exibição dos elementos
+
+A propriedade `length` retorna a quantidade de elementos. Como o primeiro índice é `0`, um laço tradicional percorre o array enquanto `i < array.length`.
+
+```js
+const cidades = ["Pelotas", "São Lourenço", "Porto Alegre"]
+for (let i = 0; i < cidades.length; i++) {
+  console.log(cidades[i])
+}
+
+console.log(cidades.toString())  // Pelotas,São Lourenço,Porto Alegre
+console.log(cidades.join(" - ")) // Pelotas - São Lourenço - Porto Alegre
+console.log(".".repeat(10))      // ..........
+```
+
+`toString()` transforma os elementos em texto separados por vírgulas. `join(separador)` também os transforma em texto, usando o separador indicado.
+
+### `for...of` e `forEach()`
+
+`for...of` percorre os valores do array. `forEach()` chama uma função para cada elemento e pode fornecer também o índice. O índice no `forEach()` é opcional.
+
+```js
+for (const cidade of cidades) {
+  console.log(cidade)
+}
+
+cidades.forEach((cidade, i) => {
+  console.log(`${i + 1}ª cidade: ${cidade}`)
+})
+```
+
+`forEach()` também pode ser usado para operações como somar os elementos. Não é possível interromper sua iteração com `break` ou `continue`.
+
+```js
+const valores = [5, 10, 15, 20]
+let soma = 0
+valores.forEach(valor => soma += valor)
+console.log(`Soma: ${soma}`)  // Soma: 50
+```
+
+Em uma lista de espera, por exemplo, `push()` pode adicionar um paciente ao final da fila, `shift()` pode retirar o próximo a ser atendido e `length` informa quantas pessoas aguardam.
