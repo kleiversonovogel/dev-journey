@@ -14,7 +14,7 @@ Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com Jav
 | `cap03` | JavaScript no terminal com Node.js e `prompt-sync` |
 | `cap04` | Condicionais (`if/else`, `switch`, ternário), operadores relacionais e lógicos |
 | `cap05` | Laços (`for`, `while`, `do...while`), `break`/`continue`, contadores e acumuladores |
-| Em estudo | Capítulo 6: vetores (arrays). As notas iniciais estão em `infos.md`; a pasta de exemplos do capítulo ainda não foi criada. |
+| `cap06` | Vetores (arrays): As notas iniciais estão em `infos.md`; exemplos do capítulo ainda não foram criados. |
 | `exercicios-avulsos` | Práticas avulsas feitas por mim, algumas com auxílio de IAs; não reúne todos os exercícios do livro |
 
 Também há anotações pessoais de estudo em `infos.md`, que podem conter imprecisões.
