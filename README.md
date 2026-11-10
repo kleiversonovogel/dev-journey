@@ -1,20 +1,21 @@
 # livrojs
 
-Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com JavaScript"**, feitos por mim durante o estudo.
+Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com JavaScript"**, feitos por mim durante o estudo. O estudo do capítulo 6, sobre vetores (arrays), está em andamento.
 
 ![Status](https://img.shields.io/badge/status-em%20andamento-1f2937?style=flat)
-![Capítulos](https://img.shields.io/badge/cap%C3%ADtulos-5-1f2937?style=flat)
+![Capítulos](https://img.shields.io/badge/cap%C3%ADtulos-6-1f2937?style=flat)
 
 ## Conteúdo
 
-| Pasta | Tópicos |
+| Pasta ou etapa | Tópicos |
 |-------|---------|
 | `cap01` | Entrada e saída (`prompt`, `alert`, `console.log`), `Number()`, `typeof`, template strings, cálculos simples |
 | `cap02` | Formulários HTML com JavaScript em arquivo externo, `querySelector`, `addEventListener`, `preventDefault`, funções do `Math` |
 | `cap03` | JavaScript no terminal com Node.js e `prompt-sync` |
 | `cap04` | Condicionais (`if/else`, `switch`, ternário), operadores relacionais e lógicos |
 | `cap05` | Laços (`for`, `while`, `do...while`), `break`/`continue`, contadores e acumuladores |
-| `exercicios` | Exercícios extras de prática, fora do livro |
+| Em estudo | Capítulo 6: vetores (arrays). As notas iniciais estão em `infos.md`; a pasta de exemplos do capítulo ainda não foi criada. |
+| `exercicios-avulsos` | Práticas avulsas feitas por mim, algumas com auxílio de IAs; não reúne todos os exercícios do livro |
 
 Também há anotações pessoais de estudo em `infos.md`, que podem conter imprecisões.
 

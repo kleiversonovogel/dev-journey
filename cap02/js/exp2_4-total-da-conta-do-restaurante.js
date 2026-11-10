@@ -1,3 +1,4 @@
+// Exemplo: calcular o valor da refeição pelo peso consumido.
 // cria ref ao form e elemento h3
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")

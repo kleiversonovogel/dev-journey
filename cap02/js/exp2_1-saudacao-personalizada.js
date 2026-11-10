@@ -1,3 +1,4 @@
+// Exemplo: exibir uma saudação personalizada para o usuário.
 // cria referencia ao form ao elemento h3 (onde será exibido a reposta
 const frm = document.querySelector("form")
 const resp= document.querySelector("h3")

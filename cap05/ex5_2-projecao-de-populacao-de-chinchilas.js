@@ -1,3 +1,4 @@
+// Exercício: projetar a população de chinchilas ao longo do número de anos informado.
 const frm = document.querySelector("form")
 const resp = document.querySelector("pre")
 

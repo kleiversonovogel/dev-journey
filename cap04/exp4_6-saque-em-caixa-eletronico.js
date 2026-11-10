@@ -1,3 +1,4 @@
+// Exemplo: indicar as cédulas necessárias para compor o valor de um saque.
 // cria ref ao form e a resposta
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("#resp1")

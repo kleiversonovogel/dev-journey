@@ -1,3 +1,4 @@
+// Exemplo: calcular o valor a pagar em uma pescaria a partir do número de pessoas e peixes.
 const prompt = require("prompt-sync") (); // add pacote prompt-sync
 const pessoas = Number(prompt("Num de Pessoas: ")) // le dados de entrada
 const peixes = Number(prompt("Num de Peixes: "))

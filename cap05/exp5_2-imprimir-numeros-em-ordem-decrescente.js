@@ -1,3 +1,4 @@
+// Exemplo: exibir os números de um valor informado em ordem decrescente até 1.
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")
 

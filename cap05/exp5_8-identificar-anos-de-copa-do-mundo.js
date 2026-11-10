@@ -1,3 +1,4 @@
+// Exemplo: verificar se cada ano informado é ano de Copa do Mundo; 0 encerra a entrada.
 const prompt = require("prompt-sync")()
 console.log("Anos de copa do mundo, digite 0 para sair")
 console.log("--------------------------------------------")

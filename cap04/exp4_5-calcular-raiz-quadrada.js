@@ -1,3 +1,4 @@
+// Exemplo: calcular a raiz quadrada de um número informado.
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")
 

@@ -1,3 +1,4 @@
+// Exercício: apresentar a promoção de um medicamento a partir do nome e do preço informado.
 // cria ref ao form e ao h3
 const frm = document.querySelector("form")
 const respMedName = document.querySelector("#medName");

@@ -1,3 +1,4 @@
+// Exercício: apresentar a entrada e as parcelas de um financiamento de veículo.
 const prompt = require("prompt-sync")() // add o pct programa
 const veiculo = prompt("Veiculo: ") // lê os dados de entrada
 const preco = Number(prompt("Preço: "))

@@ -6,7 +6,7 @@ Percorra os números de 1 a 50.
 Conte quantos são múltiplos de 5 (dica do cap02: operador %).
 No fim, mostre a quantidade.
 
-node ./exercicios/identificar-multiplos-de-cinco
+node ./exercicios-avulsos/identificar-multiplos-de-cinco
 
 */
 let contador = 0

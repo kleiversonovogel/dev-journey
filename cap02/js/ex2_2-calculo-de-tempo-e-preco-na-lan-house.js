@@ -1,3 +1,4 @@
+// Exercício: calcular o preço pelo tempo de uso e pelo valor cobrado na lan house.
 const frm = document.querySelector("form")
 const valor = document.getElementById("valorapagar")
 

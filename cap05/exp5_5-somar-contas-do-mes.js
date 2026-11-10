@@ -1,3 +1,4 @@
+// Exemplo: registrar as contas do mês e exibir a quantidade e a soma dos valores.
 const frm = document.querySelector("form") // obtem elementos da pagina
 const resp1 = document.querySelector("#outresp1")
 const resp2 = document.querySelector("#outresp2")

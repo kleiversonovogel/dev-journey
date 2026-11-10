@@ -1,3 +1,4 @@
+// Exercício: exibir o nome de uma fruta a quantidade de vezes informada.
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")
 

@@ -1,3 +1,4 @@
+// Exemplo: dividir um valor em parcelas e exibir o valor de cada parcela.
 const prompt = require("prompt-sync")()
 const valor = Number(prompt("Valor R$: "))
 const num = Number(prompt("N° de parcelas: "))

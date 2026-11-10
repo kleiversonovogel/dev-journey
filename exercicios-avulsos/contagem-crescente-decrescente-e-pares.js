@@ -2,7 +2,7 @@
 Depois mude o programa para mostrar de 10 a 1.
 Por último, mostre só os números de 2 a 20 que são pares.
 
-node ./exercicios/contagem-crescente-decrescente-e-pares
+node ./exercicios-avulsos/contagem-crescente-decrescente-e-pares
 
 */
 

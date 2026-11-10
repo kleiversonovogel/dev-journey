@@ -1,3 +1,4 @@
+// Exercício: calcular a promoção aplicada ao terceiro produto.
 const frm = document.querySelector("form")
 const resp1 = document.getElementById("resp1")
 const resp2 = document.getElementById("resp2")

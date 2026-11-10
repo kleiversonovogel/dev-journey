@@ -1,3 +1,4 @@
+// Exercício: informar o tempo de estacionamento e o troco conforme o valor depositado.
 const frm = document.querySelector("form")
 const resptempo = document.getElementById("Tempo")
 const resptroco = document.getElementById("Troco")

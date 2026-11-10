@@ -1,3 +1,4 @@
+// Exemplo: inverter os algarismos de um número de três dígitos.
 const prompt = require("prompt-sync")()
 const num = Number(prompt("Digite uma centena: "))
 

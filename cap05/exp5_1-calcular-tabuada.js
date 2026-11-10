@@ -1,3 +1,4 @@
+// Exemplo: exibir a tabuada de um número de 1 a 10.
 const frm = document.querySelector("form")
 const resp = document.querySelector("pre")
 

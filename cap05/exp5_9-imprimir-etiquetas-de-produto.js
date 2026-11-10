@@ -1,3 +1,4 @@
+// Exemplo: imprimir etiquetas de um produto na quantidade informada.
 const prompt = require("prompt-sync")()
 const produto = prompt("Produto: ")
 const num = Number(prompt("Nùmero de etiquetas: "))

@@ -1,3 +1,4 @@
+// Exemplo: apresentar a entrada e as parcelas de um financiamento de veículo.
 // cria ref ao form e aos elementos de resp (pelo id)
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("#outResp1")

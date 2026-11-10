@@ -1,3 +1,4 @@
+// Exemplo: converter o horário informado no Brasil para o horário da França.
 // cria ref ao form e ao h3
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")

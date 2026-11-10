@@ -1,3 +1,4 @@
+// Exemplo: calcular o peso ideal com base no nome, sexo e altura informados.
 // cria ref ao form e ao elemnt. onde será exibido a resposta
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")

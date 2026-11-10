@@ -2,7 +2,7 @@
 Use um for de 1 a 10 e, a cada volta, adicione i em soma.
 Depois do loop, mostre o valor final de soma. 
 
-node ./exercicios/somar-os-primeiros-n-numeros
+node ./exercicios-avulsos/somar-os-primeiros-n-numeros
 
 */
 

@@ -1,3 +1,4 @@
+// Exemplo: calcular a média de duas notas e informar a situação do aluno.
 // cria ref ao form e elementos de resposta
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("h3")

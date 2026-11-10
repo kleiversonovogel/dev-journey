@@ -1,3 +1,4 @@
+// Exercício: classificar um triângulo a partir das medidas de seus lados.
 const frm = document.getElementById("formulario")
 const resplado = document.getElementById("respostalado")
 const resptipo = document.getElementById("respostatipo")

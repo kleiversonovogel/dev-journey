@@ -1,3 +1,4 @@
+// Exemplo: verificar se o número informado é primo.
 // Seleciona a tag <form> do HTML para manipularmos o envio do formulário
 const frm = document.querySelector("form")
 

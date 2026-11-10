@@ -1,3 +1,4 @@
+// Exemplo: converter a duração de um filme de minutos para horas e minutos.
 // cria ref ao form e ao elementos resposta (h3 e h4)
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("h3")
