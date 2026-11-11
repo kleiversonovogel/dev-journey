@@ -1,3 +1,4 @@
+// Exercício avulso: calcular salário bruto, desconto de 8% e salário líquido semanal.
 // uma empresa precisa de um programa que calcule o salario semanal dos func.
 // nome dos func. qntd de hrs trabalhadas semana. valor recebido p hr
 // 1. salkario bruto (hr x vlr)

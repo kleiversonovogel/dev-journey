@@ -1,3 +1,4 @@
+// Exercício: calcular o adicional salarial de 1% por quadriênio trabalhado.
 // leia salario e tempo, a cd 4 anos, acrescenta 1%
 // ... informe o num de quadriênios a q o func. tem direito e o salario final
 

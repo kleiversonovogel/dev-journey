@@ -1,3 +1,4 @@
+// Exercício: verificar se um número é perfeito somando seus divisores próprios.
 // elaborar programa que leia um numero e verfique se ele é ou não perfeito
 // num perfeito = soma dos seus divisores inteiros (exceto ele mesmo)
 // deve exibir os divisores e a soma deles

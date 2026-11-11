@@ -1,3 +1,4 @@
+// Exercício avulso: demonstrar os laços while, do...while e for com contagem, validação e tabuada.
 const prompt = require("prompt-sync")()
 
 console.log("---------------------------------------------------------------------")

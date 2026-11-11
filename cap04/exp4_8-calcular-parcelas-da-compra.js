@@ -1,3 +1,4 @@
+// Exercício: definir o maior número de parcelas (até 6) mantendo cada uma em pelo menos R$ 20.
 // uma farmacia necessita de um programa que leia o total de uma compra,
 // exiba como resposta o num max de vezes que o cliente pode parcelar
 // e o valor de cada parcela

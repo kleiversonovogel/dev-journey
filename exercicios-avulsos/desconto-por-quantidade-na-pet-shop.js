@@ -1,3 +1,4 @@
+// Exercício avulso: calcular o desconto e o total da compra conforme faixas de valor.
 // Uma loja chamada VogelStore precisa de um programa que calcule o valor final das compras de seus clientes.
 
 const frm = document.querySelector("form")

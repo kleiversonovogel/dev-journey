@@ -1,3 +1,4 @@
+// Exercício avulso: simular um caixa eletrônico com depósito, saque, consulta e projeção do saldo.
 const prompt = require("prompt-sync")()
 
 let saldo = 1000

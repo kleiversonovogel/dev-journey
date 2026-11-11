@@ -1,3 +1,4 @@
+// Exercício avulso: somar os números inteiros de 1 a 10 usando um laço for.
 /* Crie uma variável soma com valor 0.
 Use um for de 1 a 10 e, a cada volta, adicione i em soma.
 Depois do loop, mostre o valor final de soma. 

@@ -1,3 +1,4 @@
+// Exercício avulso: calcular o fatorial de 5 usando uma repetição for.
 /*
 
 Defina numero = 5.

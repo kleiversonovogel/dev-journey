@@ -1,3 +1,4 @@
+// Exercício: calcular por quantos dias a ração durará e quanto restará.
 // elaborar programa para vet q leia peso da ração (em kg)
 //e qnt o gato consome por dia da ração (em g)
 // informe qntds dias irá durar a ração e qnt sobra da ração em g

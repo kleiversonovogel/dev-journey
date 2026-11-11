@@ -1,3 +1,4 @@
+// Exercício: identificar se o número informado é par ou ímpar.
 // ler num e informar se é impar ou par
 // usar if else trad. e depois op. ternario
 

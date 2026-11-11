@@ -1,3 +1,4 @@
+// Exercício avulso: calcular o valor final de um empréstimo com juros conforme a faixa solicitada.
 const frm = document.querySelector("form")
 const respnome = document.querySelector("h2")
 const respvalor = document.querySelector("h3")

@@ -1,3 +1,4 @@
+// Exercício: classificar a infração conforme a velocidade do condutor e o limite da via.
 /* elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade do condutor 
 se a velocidade for inferior ou igual a permitida exiba "sem multa" 
 se for ate 20% maior exiba "multa leve", se for > 20% exiba "multa grave" */

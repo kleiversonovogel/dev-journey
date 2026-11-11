@@ -1,3 +1,4 @@
+// Exercício avulso: exibir contagens crescente, decrescente e os números pares de 2 a 20.
 /* Mostre os números de 1 a 10, um por linha.
 Depois mude o programa para mostrar de 10 a 1.
 Por último, mostre só os números de 2 a 20 que são pares.

@@ -1,3 +1,4 @@
+// Exercício avulso: ler dois números e apresentar a soma.
 const frm = document.querySelector("form")
 const resp = document.getElementById("respo")
 frm.addEventListener ("submit", (e) => {

@@ -1,3 +1,4 @@
+// Exercício avulso: classificar a temperatura como fria, agradável ou quente.
 // cria ref ao form e ao h3
 const frm = document.querySelector("form") // form
 const resp = document.querySelector("h3") // ... h3 (resposta)

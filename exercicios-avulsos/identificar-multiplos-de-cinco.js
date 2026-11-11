@@ -1,3 +1,4 @@
+// Exercício avulso: encontrar e contar os múltiplos de 5 entre 1 e 50.
 /*
 
 Vamos usar contador + if dentro do for:
