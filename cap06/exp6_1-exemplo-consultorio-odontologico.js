@@ -1,4 +1,4 @@
-const frm = document.querySelector("form") // obtem elementos da pag
+const frm = document.querySelector("form") // obtem elementos da página
 const respNome = document.querySelector("span")
 const respLista = document.querySelector("pre")
 
@@ -10,28 +10,28 @@ frm.addEventListener("submit", (e) => {
     const nome = frm.inPaciente.value // obtem nome do paciente
     pacientes.push(nome) // add fim do array
     let list = "" // string pra concatenar pacientes
-    // for tradicinal (inicia em 0 enquanto menor que tamanho do array)
+    // for tradicional (inicia em 0 enquanto menor que tamanho do array)
     for (let i = 0; i < pacientes.length; i++) {
         list += `${i + 1}. ${pacientes[i]}\n`
     }
     respLista.innerText = list // add lista de pacientes
-    frm.inPaciente.value = "" // limpa campo de formulario
-    frm.inPaciente.focus() // posiciona cursos no campo
+    frm.inPaciente.value = "" // limpa campo de formulário
+    frm.inPaciente.focus() // posiciona o cursor no campo
 })
 
-// add um ouvinte p evento click no btUrgencia
+// adiciona um ouvinte de evento click no botão btUrgencia
 frm.btUrgencia.addEventListener("click", () => {
-    // verifica se as validções do form estão ok
+    // verifica se as validações do formulário estão ok
     if (!frm.checkValidity()) {
-        alert("Informe o paciente a ser atendido em caracter de urgencia")
-        frm.inPaciente.focus() // posiciona cursor no campo inPaciente
+        alert("Informe o paciente a ser atendido em caráter de urgência")
+        frm.inPaciente.focus() // posiciona o cursor no campo inPaciente
         return // retorna ao form
     }
 
     const nome = frm.inPaciente.value // nome do paciente
     pacientes.unshift(nome) // add paciente no inicio do vetor
     let lista = ""
-    //forEach aplicado sobre array pacientes
+    // forEach aplicado sobre o array pacientes
     pacientes.forEach((pacientes, i) => (lista += `${i + 1}. ${pacientes} \n`))
     respLista.innerText = lista // exibe lista de pacientes
     frm.inPaciente.value = "" // limpa campo form
@@ -49,5 +49,5 @@ const atender = pacientes.shift() // remove do inicio da fila (e obtem nome)
 respNome.innerText = atender
 let lista = ""
 pacientes.forEach((paciente, i) => (lista += `${i + 1}. ${paciente} \n`))
-respLista.innerText = lista // exibe a lista de pacientes da pag
+respLista.innerText = lista // exibe a lista de pacientes da página
 })
