@@ -49,5 +49,5 @@ const atender = pacientes.shift() // remove do inicio da fila (e obtem nome)
 respNome.innerText = atender
 let lista = ""
 pacientes.forEach((paciente, i) => (lista += `${i + 1}. ${paciente} \n`))
-respLista.innerText = lista // exibe a lista de pacientes da página
+respLista.innerText = lista // exibe a lista de pacientes da pag
 })
