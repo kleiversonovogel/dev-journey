@@ -32,7 +32,7 @@ frm.btUrgencia.addEventListener("click", () => {
     pacientes.unshift(nome) // add paciente no inicio do vetor
     let lista = ""
     // forEach aplicado sobre o array pacientes
-    pacientes.forEach((pacientes, i) => (lista += `${i + 1}. ${pacientes} \n`))
+    pacientes.forEach((paciente, i) => (lista += `${i + 1}. ${paciente} \n`))
     respLista.innerText = lista // exibe lista de pacientes
     frm.inPaciente.value = "" // limpa campo form
     frm.inPaciente.focus() // posiciona o cursor no campo
