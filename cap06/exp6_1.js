@@ -2,7 +2,8 @@ const frm = document.querySelector("form") // obtem elementos da pag
 const respNome = document.querySelector("span")
 const respLista = document.querySelector("pre")
 
-const pacientes = [] // vetor global
+const pacientes = [] // Exercício: cadastro de pacientes com fila de espera, prioridade de urgência e atendimento.
+// vetor global
 
 frm.addEventListener("submit", (e) => {
     e.preventDefault() // evita envio do form
