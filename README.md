@@ -1,11 +1,11 @@
 # dev-journey
 
-Exercícios e exemplos do livro **\"Lógica de Programação e Algoritmos com JavaScript\"**, feitos por mim durante o estudo.
+Exercícios e exemplos do livro **"Lógica de Programação e Algoritmos com JavaScript"**, feitos por mim durante o estudo.
 
 ![Status](https://img.shields.io/badge/status-em%20andamento-1f2937?style=flat)
 ![Capítulos](https://img.shields.io/badge/cap%C3%ADtulos-6-1f2937?style=flat)
 
-> 📚 Material de apoio para estudar **JavaScript do zero**. Cada capítulo é uma pasta com os seus próprios exemplos e exercícios, e o `infos.md` reúne as anotações de estudo.
+> Material de apoio para estudar **JavaScript do zero**. Cada capítulo é uma pasta com os seus próprios exemplos e exercícios, e o `infos.md` reúne as anotações de estudo.
 
 ## 🛠️ Pré-requisitos: instale isso primeiro
 
@@ -44,15 +44,15 @@ Os exercícios com HTML (`.html`) rodam em qualquer navegador atualizado.
 
 Cada capítulo é uma pasta com os exemplos (`exp*`) e exercícios (`ex*`). Clique no nome da pasta para abrir os arquivos no GitHub.
 
-|| Capitulo | Tópicos |
-||---------|--------|
-|| [`cap01`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap01) | Entrada e saída (`prompt`, `alert`, `console.log`), `Number()`, `typeof`, template strings, cálculos simples |
-|| [`cap02`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap02) | Formulários HTML com JavaScript em arquivo externo, `querySelector`, `addEventListener`, `preventDefault`, funções do `Math` |
-|| [`cap03`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap03) | JavaScript no terminal com Node.js e `prompt-sync` |
-|| [`cap04`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap04) | Condicionais (`if/else`, `switch`, ternário), operadores relacionais e lógicos |
-|| [`cap05`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap05) | Laços (`for`, `while`, `do...while`), `break`/`continue`, contadores e acumuladores |
-|| [`cap06`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap06) | Vetores (arrays): exemplos do capítulo já incluídos. As notas de estudo ficam em `infos.md`. |
-|| [`exercicios-avulsos`](https://github.com/kleiversonovogel/dev-journey/tree/main/exercicios-avulsos) | Práticas avulsas feitas por mim, algumas com auxílio de IAs; não reúne todos os exercícios do livro |
+| Capítulo | Tópicos |
+|---------|--------|
+| [`cap01`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap01) | Entrada e saída (`prompt`, `alert`, `console.log`), `Number()`, `typeof`, template strings, cálculos simples |
+| [`cap02`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap02) | Formulários HTML com JavaScript em arquivo externo, `querySelector`, `addEventListener`, `preventDefault`, funções do `Math` |
+| [`cap03`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap03) | JavaScript no terminal com Node.js e `prompt-sync` |
+| [`cap04`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap04) | Condicionais (`if/else`, `switch`, ternário), operadores relacionais e lógicos |
+| [`cap05`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap05) | Laços (`for`, `while`, `do...while`), `break`/`continue`, contadores e acumuladores |
+| [`cap06`](https://github.com/kleiversonovogel/dev-journey/tree/main/cap06) | Vetores (arrays): exemplos do capítulo já incluídos. As notas de estudo ficam em `infos.md`. |
+| [`exercicios-avulsos`](https://github.com/kleiversonovogel/dev-journey/tree/main/exercicios-avulsos) | Práticas avulsas feitas por mim, algumas com auxílio de IAs; não reúne todos os exercícios do livro |
 
 > ℹ️ `infos.md` contém anotações pessoais de estudo que podem conter imprecisões.
 
@@ -80,7 +80,7 @@ npm install
 node cap03/ex3_1-soma-de-dois-numeros.js
 ```
 
-## 🛠 Tecnologias
+## 🛠️ Tecnologias
 
 ![HTML](https://img.shields.io/badge/HTML-1f2937?style=flat&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-1f2937?style=flat&logo=css3&logoColor=1572B6)
